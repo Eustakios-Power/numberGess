@@ -9,7 +9,6 @@ namespace number
         static void Main(string[] args)
         {
             Console.WriteLine("Gess the number between 0 and 100");
-            Console.WriteLine();
             int input = Int32.Parse(Console.ReadLine());
             int numUsed = randomNumber();
             int tries = 1;
